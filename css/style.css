@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 6rem;
+  color: #FF865E;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #FF865E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+h3{
+  color: #A2D2FF;
+  font-family: 'Montserrat', sans-serif;
+}
+P{
+  line-height: 2;
+  color: #40514E;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width: 3%;
+  color: #A2D2FF;
+}
+
+.top-container{
+  position: relative;
+  padding-top: 100px;
+  background-color: #FEE440;
+}
+
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mountain{
+  position: relative;
+}
+.Eng{
+  text-decoration: underline;
+}
+
+/*******************************************middle container********************************/
+
+.middle-container{
+background-color: #FEF9EF;
+}
+.profile{
+  padding: 50px;
+}
+
+.talhadp{
+  border-radius: 100%;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+}
+.skills{
+  padding: 25px 0 0 0;
+}
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+}
+.web-design{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.illustrator{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me{
+  padding: 50px 0;
+}
+
+.address-talha{
+  width: 20%;
+  margin: 20px auto ;
+}
+
+
+/********************************************BOTTOM CONTAINER LOGO***************************/
+.bottom-container{
+background-color: #FEE440;
+padding: 50px 0;
+}
+a{
+  color: #FF865E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.footer-link{
+  padding: 0 25px;
+  text-decoration: none;
+}
+.copyright{
+  padding: 25px 0 0 0;
+  color: #FEF9EF;
+}
+/***********************************8UTTON****************************************/
+.contact-me-button {
+   background: #FF865E;
+   background-image: -webkit-linear-gradient(top, #FF865E, #B75230);
+   background-image: -moz-linear-gradient(top, #FF865E, #B75230);
+   background-image: -ms-linear-gradient(top, #FF865E, #B75230);
+   background-image: -o-linear-gradient(top, #FF865E, #B75230);
+   background-image: -webkit-gradient(to bottom, #FF865E, #B75230);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1rem;
+   font-weight:normal;
+   padding: 10px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
